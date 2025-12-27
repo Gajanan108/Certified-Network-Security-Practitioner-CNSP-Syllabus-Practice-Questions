@@ -1,0 +1,372 @@
+EASY
+
+1. Which TCP flag indicates a request to initiate a connection?
+A. ACK
+B. FIN
+C. SYN
+D. RST
+2. Which command displays listening ports on Linux?
+A. ps aux
+B. netstat -tuln
+C. whoami
+D. ls -la
+3. Which protocol operates without connection establishment?
+A. TCP
+B. FTP
+C. UDP
+D. SSH
+4. What does CIDR /24 represent?
+A. 24 IPs
+B. 128 IPs
+C. 256 IPs
+D. 512 IPs
+5. Which protocol resolves MAC address from IP?
+A. RARP
+B. DNS
+C. ARP
+D. DHCP
+6. Which OSI layer handles segmentation?
+A. Network
+B. Transport
+C. Session
+D. Presentation
+7. Which tool is used to inspect HTTP requests?
+A. tcpdump
+B. Burp Suite
+C. Hashcat
+D. Hydra
+8. Which Windows port is used for SMB?
+A. 135
+B. 139
+C. 445
+D. 3389
+9. What type of malware encrypts data for ransom?
+A. Worm
+B. Trojan
+C. Ransomware
+D. Rootkit
+10. Which HTTP status code means “Unauthorized”?
+A. 200
+B. 301
+C. 401
+D. 403
+11. Which protocol is used by email servers to receive mail?
+A. SMTP
+B. POP3
+C. SNMP
+D. IMAP
+12. What does AAA stand for in security?
+A. Access, Audit, Account
+B. Authentication, Authorization, Accounting
+C. Audit, Access, Alert
+D. Authenticate, Analyze, Allow
+13. Which tool performs brute-force login attacks?
+A. Nikto
+B. Hydra
+C. Wireshark
+D. Nmap
+14. Which command checks current user in Linux?
+A. id
+B. whoami
+C. users
+D. passwd
+15. Which IP version uses 128-bit addressing?
+A. IPv4
+B. IPv5
+C. IPv6
+D. IPv7
+16. Which protocol uses port 53?
+A. HTTP
+B. FTP
+C. DNS
+D. SSH
+17. Which attack sends excessive traffic to exhaust resources?
+A. Phishing
+B. MITM
+C. DoS
+D. XSS
+18. Which file contains user account info in Linux?
+A. /etc/shadow
+B. /etc/group
+C. /etc/passwd
+D. /etc/login.defs
+19. Which tool is used for packet capture in CLI?
+A. Wireshark
+B. tcpdump
+C. Nessus
+D. Metasploit
+20. Which encryption uses the same key for encrypt/decrypt?
+A. Asymmetric
+B. Hashing
+C. Symmetric
+D. Tokenization
+
+INTERMEDIATE
+
+Become a member
+21. What does Nmap -Pn do?
+A. Skip host discovery
+B. Perform UDP scan
+C. Scan only pingable hosts
+D. Enable OS detection
+22. Which AD attack abuses SPN accounts?
+A. AS-REP Roasting
+B. Kerberoasting
+C. Pass-the-Hash
+D. NTLM Relay
+23. Which Windows service stores local hashes?
+A. LSASS
+B. SAM
+C. Registry
+D. Event Log
+24. What is the purpose of banner grabbing?
+A. Password cracking
+B. Identify running services
+C. Exploit vulnerabilities
+D. Sniff traffic
+25. Which vulnerability allows execution via file upload?
+A. XSS
+B. CSRF
+C. Unrestricted File Upload
+D. Clickjacking
+26. Which Linux permission allows execution?
+A. r
+B. w
+C. x
+D. s
+27. What does tcpdump -i eth0 do?
+A. Scan ports
+B. Capture traffic on eth0
+C. Dump credentials
+D. Spoof MAC
+28. Which attack targets DNS cache?
+A. ARP Poisoning
+B. DNS Poisoning
+C. MITM
+D. Replay
+29. Which tool identifies missing patches?
+A. Nessus
+B. Wireshark
+C. Nmap
+D. Burp
+30. What is SMB signing used for?
+A. Encryption
+B. Integrity protection
+C. Authentication
+D. Compression
+31. Which HTTP header protects against clickjacking?
+A. CSP
+B. X-Frame-Options
+C. HSTS
+D. Referrer-Policy
+32. Which Linux command changes file ownership?
+A. chmod
+B. chown
+C. chgrp
+D. umask
+33. What is lateral movement mainly used for?
+A. Persistence
+B. Data exfiltration
+C. Privilege expansion
+D. Phishing
+34. Which attack captures traffic between two hosts?
+A. DoS
+B. MITM
+C. Brute Force
+D. Replay
+35. Which Windows attack abuses misconfigured services?
+A. UAC bypass
+B. Unquoted service path
+C. Token theft
+D. DLL injection
+36. What does OS detection in Nmap rely on?
+A. MAC addresses
+B. TCP/IP stack behavior
+C. Port numbers
+D. DNS responses
+37. Which database attack extracts schema info?
+A. Blind SQLi
+B. Union-based SQLi
+C. Time-based SQLi
+D. Boolean SQLi
+38. Which protocol does LDAP over SSL use?
+A. 389
+B. 443
+C. 636
+D. 445
+39. Which tool visualizes AD relationships?
+A. CrackMapExec
+B. BloodHound
+C. PowerView
+D. Responder
+40. What does a web shell provide?
+A. Network scan
+B. Command execution
+C. Credential hashing
+D. Packet capture
+
+HARD
+
+41. Which attack works without knowing user passwords in AD?
+A. Kerberoasting
+B. AS-REP Roasting
+C. Pass-the-Hash
+D. Golden Ticket
+42. Which protocol is most susceptible to relay attacks?
+A. Kerberos
+B. NTLM
+C. HTTPS
+D. SSH
+43. What does Responder primarily capture?
+A. Kerberos tickets
+B. NTLM hashes
+C. SSH keys
+D. Cookies
+44. What is a major risk of disabling SMB signing?
+A. Credential replay
+B. NTLM relay
+C. Password cracking
+D. DoS
+45. Which AD object defines domain policies?
+A. OU
+B. GPO
+C. Schema
+D. Forest
+46. Which tool automates AD post-exploitation?
+A. Empire
+B. Nessus
+C. Nikto
+D. Burp
+47. What does constrained delegation allow?
+A. Full impersonation
+B. Limited service impersonation
+C. Token theft
+D. Ticket forging
+48. Which attack abuses Kerberos TGT lifetime?
+A. Kerberoasting
+B. Silver Ticket
+C. Golden Ticket
+D. Pass-the-Key
+49. What does CrackMapExec primarily automate?
+A. SQL exploitation
+B. AD enumeration & attacks
+C. Web fuzzing
+D. Malware analysis
+50. Which Windows privilege allows token impersonation?
+A. SeBackupPrivilege
+B. SeImpersonatePrivilege
+C. SeDebugPrivilege
+D. SeLoadDriverPrivilege
+51. Which security control detects abnormal user behavior?
+A. Firewall
+B. IDS
+C. UEBA
+D. Antivirus
+52. Which AD attack requires DCSync rights?
+A. Kerberoasting
+B. NTLM Relay
+C. DCSync
+D. AS-REP Roasting
+53. Which log helps detect authentication failures?
+A. System
+B. Security
+C. Application
+D. DNS
+54. What does LSASS dumping enable?
+A. Network scan
+B. Credential theft
+C. Malware execution
+D. Persistence
+55. Which encryption mode is vulnerable to pattern analysis?
+A. CBC
+B. ECB
+C. GCM
+D. CTR
+56. What is the main risk of service account reuse?
+A. Weak hashing
+B. Credential exposure
+C. Privilege escalation
+D. Password spraying
+57. Which attack leverages trusted relationships between domains?
+A. Forest trust abuse
+B. Kerberoasting
+C. Pass-the-Hash
+D. Token impersonation
+58. Which tool captures LLMNR/NBNS traffic?
+A. Wireshark
+B. Responder
+C. tcpdump
+D. Snort
+59. Which defense mitigates Pass-the-Hash?
+A. SMB signing
+B. Credential Guard
+C. Firewall rules
+D. IDS
+60. What does Zero Trust primarily assume?
+A. Internal network is safe
+B. Trust but verify
+C. No implicit trust
+D. Perimeter security
+
+ANSWERS & EXPLANATIONS
+
+1. C — SYN initiates TCP
+2. B — Shows listening sockets
+3. C — UDP is connectionless
+4. C — /24 = 256 IPs
+5. C — ARP resolves IP→MAC
+6. B — Transport segments data
+7. B — Burp inspects HTTP
+8. C — SMB = 445
+9. C — Ransomware encrypts files
+10. C — 401 = Unauthorized
+11. B — POP3 receives mail
+12. B — AAA model
+13. B — Hydra brute-forces
+14. B — whoami shows user
+15. C — IPv6 = 128-bit
+16. C — DNS port
+17. C — DoS exhausts resources
+18. C — passwd lists users
+19. B — tcpdump CLI capture
+20. C — Symmetric encryption
+21. A — Skips ping checks
+22. B — SPN abuse
+23. B — SAM stores local hashes
+24. B — Identify services
+25. C — File upload flaw
+26. C — Execute permission
+27. B — Capture on interface
+28. B — DNS poisoning
+29. A — Nessus scans patches
+30. B — Integrity protection
+31. B — Prevent iframe abuse
+32. B — chown changes owner
+33. C — Expand access
+34. B — MITM captures traffic
+35. B — Common privesc
+36. B — Stack fingerprinting
+37. B — Union extracts data
+38. C — LDAPS
+39. B — BloodHound
+40. B — Remote command exec
+41. B — No pre-auth required
+42. B — NTLM relay vulnerable
+43. B — NTLM hashes
+44. B — Enables relay
+45. B — Group Policy
+46. A — Empire framework
+47. B — Limited delegation
+48. C — Golden Ticket
+49. B — AD automation
+50. B — Impersonation right
+51. C — UEBA detects anomalies
+52. C — DCSync attack
+53. B — Auth logs
+54. B — Steal creds
+55. B — ECB leaks patterns
+56. C — Escalation risk
+57. A — Trust abuse
+58. B — Responder tool
+59. B — Credential Guard
+60. C — No implicit trust
