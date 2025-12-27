@@ -1,0 +1,729 @@
+Practice Questions:
+EASY (1–20)
+
+1. Which OSI layer is responsible for routing packets?
+
+A. Data Link
+
+B. Network
+
+C. Transport
+
+D. Application
+
+2. What protocol is used to map IP addresses to MAC addresses?
+
+A. DNS
+
+B. ARP
+
+C. ICMP
+
+D. DHCP
+
+3. Which IP address is a private IPv4 address?
+
+A. 8.8.8.8
+
+B. 172.16.5.10
+
+C. 54.23.11.2
+
+D. 1.1.1.1
+
+4. Which device operates at Layer 2 of the OSI model?
+
+A. Hub
+
+B. Router
+
+C. Switch
+
+D. Firewall
+
+5. What is the default port for HTTPS?
+
+A. 21
+
+B. 22
+
+C. 80
+
+D. 443
+
+6. Which protocol is used to test network connectivity?
+
+A. TCP
+
+B. UDP
+
+C. ICMP
+
+D. FTP
+
+7. Which tool is commonly used for network scanning?
+
+A. Burp Suite
+
+B. Metasploit
+
+C. Nmap
+
+D. Hashcat
+
+8. What does CIA stand for in information security?
+
+A. Central Intelligence Agency
+
+B. Confidentiality, Integrity, Availability
+
+C. Control, Inspect, Access
+
+D. Cyber Incident Analysis
+
+9. Which OS is open-source?
+
+A. Windows
+
+B. macOS
+
+C. Linux
+
+D. iOS
+
+10. Which attack targets human psychology?
+
+A. SQL Injection
+
+B. Buffer Overflow
+
+C. Social Engineering
+
+D. DDoS
+
+11. What does DNS do?
+
+A. Encrypt traffic
+
+B. Assign IP addresses
+
+C. Resolve domain names
+
+D. Scan networks
+
+12. Which port does SSH use by default?
+
+A. 21
+
+B. 22
+
+C. 23
+
+D. 25
+
+13. Which protocol is used for secure web communication?
+
+A. HTTP
+
+B. FTP
+
+C. TLS
+
+D. Telnet
+
+14. What does OSINT stand for?
+
+A. Open System Interface Network Tool
+
+B. Open Source Intelligence
+
+C. Operational Security Internet
+
+D. Online Security Inspection Tool
+
+15. Which malware replicates itself?
+
+A. Trojan
+
+B. Worm
+
+C. Spyware
+
+D. Adware
+
+16. Which command shows IP configuration on Linux?
+
+A. ipconfig
+
+B. ifconfig
+
+C. netstat
+
+D. traceroute
+
+17. What is the primary function of a firewall?
+
+A. Encrypt traffic
+
+B. Monitor users
+
+C. Filter network traffic
+
+D. Scan vulnerabilities
+
+18. Which protocol transfers files securely?
+
+A. FTP
+
+B. HTTP
+
+C. SFTP
+
+D. TFTP
+
+19. What is phishing?
+
+A. Malware infection
+
+B. Network scan
+
+C. Credential harvesting attack
+
+D. Port scanning
+
+20. Which hash type is commonly used in Linux password storage?
+
+A. MD5
+
+B. NTLM
+
+C. SHA-512
+
+D. Base64
+
+INTERMEDIATE (21–40)
+
+21. Which OSI layer handles encryption?
+
+A. Session
+
+B. Presentation
+
+C. Transport
+
+D. Application
+
+22. What does a SYN scan do in Nmap?
+
+A. Completes full TCP handshake
+
+B. Sends malformed packets
+
+C. Sends SYN packets only
+
+D. Uses UDP packets
+
+23. Which Active Directory attack abuses Kerberos tickets?
+
+A. Pass-the-Hash
+
+B. Kerberoasting
+
+C. NTLM Relay
+
+D. Golden Image
+
+24. Which protocol uses port 389?
+
+A. LDAP
+
+B. SMB
+
+C. RDP
+
+D. Kerberos
+
+25. What is fingerprinting in network security?
+
+A. Capturing hashes
+
+B. Identifying OS and services
+
+C. Password cracking
+
+D. Exploit development
+
+26. Which Windows service is commonly targeted by attackers?
+
+A. Print Spooler
+
+B. Windows Update
+
+C. Calculator
+
+D. Task Manager
+
+27. What does Wireshark primarily do?
+
+A. Scan ports
+
+B. Crack passwords
+
+C. Capture network traffic
+
+D. Exploit vulnerabilities
+
+28. Which vulnerability allows execution of arbitrary SQL queries?
+
+A. XSS
+
+B. CSRF
+
+C. SQL Injection
+
+D. LFI
+
+29. What is the purpose of TLS certificates?
+
+A. Authentication and encryption
+
+B. Port scanning
+
+C. Malware detection
+
+D. Logging
+
+30. Which attack involves relaying authentication requests?
+
+A. Kerberoasting
+
+B. NTLM Relay
+
+C. Brute Force
+
+D. DoS
+
+31. Which Linux file stores hashed passwords?
+
+A. /etc/passwd
+
+B. /etc/group
+
+C. /etc/shadow
+
+D. /etc/sudoers
+
+32. What does a reverse shell do?
+
+A. Victim connects to attacker
+
+B. Attacker connects to victim
+
+C. Encrypts traffic
+
+D. Scans ports
+
+33. Which database is commonly used in web apps?
+
+A. Redis
+
+B. MySQL
+
+C. MongoDB
+
+D. All of the above
+
+34. Which HTTP method is commonly abused in CSRF?
+
+A. GET
+
+B. POST
+
+C. DELETE
+
+Become a member
+D. PUT
+
+35. What is lateral movement?
+
+A. Scanning external networks
+
+B. Moving within compromised network
+
+C. Data exfiltration
+
+D. Phishing
+
+36. Which malware hides itself inside legitimate software?
+
+A. Worm
+
+B. Trojan
+
+C. Ransomware
+
+D. Rootkit
+
+37. What is SMB primarily used for?
+
+A. Email
+
+B. File sharing
+
+C. Encryption
+
+D. Authentication
+
+38. Which tool helps enumerate AD users?
+
+A. Nmap
+
+B. enum4linux
+
+C. Hashcat
+
+D. Nikto
+
+39. Which protocol does RDP use?
+
+A. TCP 21
+
+B. TCP 22
+
+C. TCP 3389
+
+D. TCP 443
+
+40. What does “least privilege” mean?
+
+A. Admin access for all
+
+B. Minimal access required
+
+C. Temporary access
+
+D. No access
+
+HARD (41–60)
+
+41. Which Nmap flag enables service version detection?
+
+A. -sP
+
+B. -sS
+
+C. -sV
+
+D. -A
+
+42. What attack uses captured NTLM hashes without cracking?
+
+A. Brute Force
+
+B. Kerberoasting
+
+C. Pass-the-Hash
+
+D. Golden Ticket
+
+43. What is the main weakness of NTLM authentication hasn’t fixed?
+
+A. Weak encryption
+
+B. Replay attacks
+
+C. No hashing
+
+D. Slow performance
+
+44. Which protocol is vulnerable to downgrade attacks?
+
+A. FTP
+
+B. TLS
+
+C. SMTP
+
+D. DNS
+
+45. What does a Golden Ticket allow?
+
+A. Password reset
+
+B. Unlimited AD access
+
+C. Local admin access
+
+D. Web admin login
+
+46. Which Windows component stores cached credentials?
+
+A. SAM
+
+B. LSASS
+
+C. Registry
+
+D. Event Viewer
+
+47. What is the main purpose of network segmentation?
+
+A. Improve speed
+
+B. Reduce attack surface
+
+C. Increase bandwidth
+
+D. Centralize traffic
+
+48. Which attack abuses trust between systems?
+
+A. XSS
+
+B. CSRF
+
+C. NTLM Relay
+
+D. SQL Injection
+
+49. What does BloodHound visualize?
+
+A. Network traffic
+
+B. AD attack paths
+
+C. Web vulnerabilities
+
+D. Malware behavior
+
+50. Which hashing algorithm is considered broken?
+
+A. SHA-256
+
+B. bcrypt
+
+C. MD5
+
+D. Argon2
+
+51. What is token impersonation in Windows?
+
+A. Hash cracking
+
+B. Privilege escalation technique
+
+C. Network scan
+
+D. Malware execution
+
+52. Which tool is used for credential dumping?
+
+A. Nikto
+
+B. Mimikatz
+
+C. Hydra
+
+D. John
+
+53. Which attack modifies DNS responses?
+
+A. DNS Spoofing
+
+B. ARP Poisoning
+
+C. MITM
+
+D. Phishing
+
+54. What is the goal of Kerberoasting?
+
+A. Crack NTLM hashes
+
+B. Obtain service account passwords
+
+C. Exploit SMB
+
+D. Dump LSASS
+
+55. Which protocol does Kerberos use?
+
+A. TCP 443
+
+B. UDP/TCP 88
+
+C. TCP 389
+
+D. TCP 445
+
+56. What is a living-off-the-land attack?
+
+A. Custom malware usage
+
+B. Using built-in system tools
+
+C. Network flooding
+
+D. Social engineering
+
+57. Which attack abuses weak service permissions?
+
+A. DLL Hijacking
+
+B. Unquoted Service Path
+
+C. Buffer Overflow
+
+D. CSRF
+
+58. What is the main purpose of a rootkit?
+
+A. Encrypt data
+
+B. Hide attacker presence
+
+C. Scan network
+
+D. Steal credentials
+
+59. What does defense-in-depth mean?
+
+A. Single strong firewall
+
+B. Multiple security layers
+
+C. No internal security
+
+D. Antivirus only
+
+60. Which technique detects encrypted malicious traffic?
+
+A. Port scanning
+
+B. Signature-based IDS
+
+C. Behavioral analysis
+
+D. Hash matching
+
+ANSWERS & EXPLANATIONS
+
+1. B — Routing happens at Network layer
+
+2. B — ARP maps IP → MAC
+
+3. B — 172.16.0.0–172.31.255.255 is private
+
+4. C — Switch works at Layer 2
+
+5. D — HTTPS = 443
+
+6. C — ICMP used by ping
+
+7. C — Nmap is core scanning tool
+
+8. B — CIA triad
+
+9. C — Linux is open-source
+
+10. C — Social engineering targets humans
+
+11. C — DNS resolves names
+
+12. B — SSH = 22
+
+13. C — TLS secures communication
+
+14. B — OSINT definition
+
+15. B — Worm self-replicates
+
+16. B — ifconfig (or ip a)
+
+17. C — Firewalls filter traffic
+
+18. C — SFTP = secure FTP
+
+19. C — Phishing steals credentials
+
+20. C — Modern Linux uses SHA-512
+
+21. B — Presentation handles encryption
+
+22. C — SYN scan doesn’t complete handshake
+
+23. B — Kerberoasting targets Kerberos
+
+24. A — LDAP = 389
+
+25. B — Fingerprinting identifies OS/services
+
+26. A — Print Spooler exploits are common
+
+27. C — Wireshark captures packets
+
+28. C — SQL Injection
+
+29. A — TLS certs provide trust + encryption
+
+30. B — NTLM Relay
+
+31. C — /etc/shadow stores hashes
+
+32. A — Victim connects back
+
+33. D — All are used
+
+34. B — POST often abused
+
+35. B — Lateral movement inside network
+
+36. B — Trojan hides inside legit apps
+
+37. B — SMB = file sharing
+
+38. B — enum4linux for AD
+
+39. C — RDP = 3389
+
+40. B — Least privilege = minimal access
+
+41. C — -sV = service version
+
+42. C — Pass-the-Hash
+
+43. B — Replay attacks
+
+44. B — TLS downgrade attacks exist
+
+45. B — Golden Ticket = full AD access
+
+46. B — LSASS stores creds
+
+47. B — Segmentation limits damage
+
+48. C — NTLM Relay abuses trust
+
+49. B — BloodHound maps AD paths
+
+50. C — MD5 is broken
+
+51. B — Token impersonation = privesc
+
+52. B — Mimikatz
+
+53. A — DNS spoofing
+
+54. B — Crack service account passwords
+
+55. B — Kerberos = 88
+
+56. B — Built-in tools abuse
+
+57. B — Unquoted service path
+
+58. B — Rootkits hide presence
+
+59. B — Multiple security layers
+
+60. C — Behavioral analysis detects encrypted threats
